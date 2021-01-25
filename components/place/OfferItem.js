@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     borderBottomColor: '#ccc',
     borderBottomWidth: 1,
     paddingVertical: 5,
-    paddingHorizontal: 30,
+    paddingHorizontal: '5%',
     flexDirection: 'row',
     alignItems: 'center'
   },
@@ -42,8 +42,8 @@ const styles = StyleSheet.create({
     borderWidth: 1
   },
   infoContainer: {
-    marginLeft: 15,
-    width: 280,
+    marginLeft: '5%',
+    width: '80%',
     alignItems: 'flex-start'
   },
   title: {
@@ -63,16 +63,15 @@ const styles = StyleSheet.create({
   },
   price: {
     color: '#777',
-    fontSize: 16,
-    marginEnd: 12
+    fontSize: 16
   },
   date: {
     color: '#777',
     fontSize: 16,
-    marginEnd: 5
+    marginEnd: 2
   },
   ionicons: {
-    marginEnd: 5
+    marginEnd: 2
   }
 });
 
