@@ -41,7 +41,7 @@ const formReducer = (state, action) => {
   return state;
 };
 
-export default CreateBooking = props => {
+const CreateBooking = props => {
   const [isBookingPlace, setIsBookingPlace] = useState(false);
   const dispatch = useDispatch();
   const { token, userId } = useSelector(state => state.auth);
@@ -208,3 +208,4 @@ const styles = StyleSheet.create({
 });
 
 
+export default CreateBooking;

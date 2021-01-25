@@ -19,7 +19,7 @@ import PlaceListItem from '../../../components/place/PlaceListItem';
 import Colors from '../../../constants/Colors';
 import * as placesActions from '../../../store/actions/places';
 
-export default Discover = props => {
+const Discover = props => {
   const [isLoading, setIsLoading] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [error, setError] = useState();
@@ -165,4 +165,4 @@ const styles = StyleSheet.create({
   centered: { flex: 1, justifyContent: 'center', alignItems: 'center' }
 });
 
-
+export default Discover;

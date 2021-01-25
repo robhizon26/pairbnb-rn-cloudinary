@@ -7,7 +7,6 @@ import MapView, { Marker } from 'react-native-maps';
 import { HeaderButtons, Item } from 'react-navigation-header-buttons';
 
 import HeaderButton from '../../../components/UI/HeaderButton';
-import Colors from '../../../constants/Colors';
 
 const Map = props => {
   const initialLocation = props.route.params ? props.route.params.initialLocation : null;

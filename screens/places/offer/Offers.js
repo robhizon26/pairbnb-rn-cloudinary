@@ -19,7 +19,7 @@ import OfferItem from '../../../components/place/OfferItem';
 import Colors from '../../../constants/Colors';
 import * as placesActions from '../../../store/actions/places';
 
-export default Offers = props => {
+const Offers = props => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState();
   const { places } = useSelector(state => state.places);
@@ -185,3 +185,4 @@ const styles = StyleSheet.create({
   }
 });
 
+export default Offers;

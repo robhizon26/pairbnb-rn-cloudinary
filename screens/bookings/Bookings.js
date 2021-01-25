@@ -21,7 +21,7 @@ import Colors from '../../constants/Colors';
 import * as bookingsActions from '../../store/actions/bookings';
 import LoadingModal from '../../components/UI/LoadingModal';
 
-export default Bookings = props => {
+const Bookings = props => {
   const [isLoading, setIsLoading] = useState(false);
   const [isCancellingBooking, setIsCancellingBooking] = useState(false);
   const [error, setError] = useState();
@@ -189,3 +189,4 @@ const styles = StyleSheet.create({
   }
 });
 
+export default Bookings;

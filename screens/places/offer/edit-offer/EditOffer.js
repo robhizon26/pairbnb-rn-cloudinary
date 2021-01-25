@@ -40,7 +40,7 @@ const formReducer = (state, action) => {
   return state;
 };
 
-export default EditOffer = props => {
+const EditOffer = props => {
   const [isUpdating, setIsUpdating] = useState(false);
   const offerId = props.route.params.offerId;
   const dispatch = useDispatch();
@@ -162,4 +162,4 @@ const styles = StyleSheet.create({
   form: { margin: 20 }
 });
 
-
+export default EditOffer;

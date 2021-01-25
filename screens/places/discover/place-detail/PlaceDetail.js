@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import Colors from '../../../../constants/Colors'
 import MapPreview from '../../../../components/place/MapPreview';
 
-export default PlaceDetail = props => {
+const PlaceDetail = props => {
   const [modalVisible, setModalVisible] = useState(false);
   const placeId = props.route.params.placeId;
   const { places, bookableplaces } = useSelector(state => state.places);
@@ -185,3 +185,4 @@ const styles = StyleSheet.create({
   }
 });
 
+export default PlaceDetail;

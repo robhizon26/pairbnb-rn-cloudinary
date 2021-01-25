@@ -1,4 +1,4 @@
-import { AsyncStorage } from  '@react-native-community/async-storage';
+import { AsyncStorage } from 'react-native';// '@react-native-community/async-storage';
 import Config from  '../../constants/config'; 
 
 export const AUTHENTICATE = 'AUTHENTICATE';
